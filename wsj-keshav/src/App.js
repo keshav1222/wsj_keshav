@@ -6,11 +6,13 @@ import {NewsContextProvider}  from './News';
 import Screen from './Screen';
 
 
+
+
 function App() {
   return (
     <div className="App">
       <header className="Wsj_keshav_Agrawal"></header>
-      <hr />
+      
       <div className="ss">
           
           <a className="sub" href = '/'>Subscribe</a> | <a className="su" href = '/'>Sign In</a>
@@ -50,6 +52,7 @@ function App() {
       </div>
       
       <hr />
+      <hr className="hr" />
       
         
           <NewsContextProvider>

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .inline{
   list-style: none;
   display: block;
@@ -28,6 +31,11 @@ h1{
   font-family:"Bodoni MT Condensed";
   
   
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
@@ -75,8 +83,62 @@ h1{
   
   
 }
-.ink{
-  display: inline;
-  right: 500px;
-  padding-left: 2rem;
+
+
+.text{
+
+  font-family: 'EB Garamond', serif;
+
+  
+}
+.url{
+  text-decoration: none;
+  color: black;
+  
+  
+}
+.para{
+  font-family: 'Montserrat', sans-serif;
+  
+  
+
+}
+.img{
+  display: block;
+  max-width: 20rem;
+
+
+
+ 
+ 
+}
+
+
+.display{
+
+  max-width: 400px;
+  border:         none;
+  border-left:    1px solid hsla(200, 10%, 50%,100);
+  
+  
+  padding-left: 1rem;
+  padding-right: 1rem;
+      
+  
+
+
+  
+}
+.f{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+  margin-left: 15rem;
+  margin-right: 15rem;
+  
+  
+}
+.hr{
+  margin-left: 15rem;
+  
 }
