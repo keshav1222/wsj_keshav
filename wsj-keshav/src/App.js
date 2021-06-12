@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import 'G:/crypto/wsj_keshav/wsj-keshav/node_modules/bootstrap/dist/css/bootstrap.min.css';
 import SearchIcon from '@material-ui/icons/Search';
+import {NewsContextProvider}  from './News';
+import Screen from './Screen';
 
 
 function App() {
@@ -35,18 +37,27 @@ function App() {
           <li className = "inc"><a className="a" href = '/'>WSJ. Magazine</a></li>
           <li className = "inc"><a className="a" href = '/'>Sports</a></li>
           
-        </ul>
-     
-        <ul className = "sea">
-        <li className = "ink"><a className="search" href = '<SearchIcon>'> Search <SearchIcon /></a></li>
 
         </ul>
      
         
         
       </nav>
+      
       </div>
+      <div className ="sea">
+      <li className = "ink"><a className="search" href = '<SearchIcon>'> Search <SearchIcon /></a></li>
+      </div>
+      
       <hr />
+      
+        
+          <NewsContextProvider>
+            <Screen />
+          </NewsContextProvider>
+
+      
+      
     </div>
   );
 }
