@@ -59,6 +59,8 @@ h1{
   padding-right: 2rem;
   
   padding-left: 3rem;
+
+
   
   
 }
@@ -118,6 +120,8 @@ h1{
   max-width: 400px;
   border:         none;
   border-left:    1px solid hsla(200, 10%, 50%,100);
+  border-right: 1px solid hsla(200, 10%, 50%,100);
+  
   
   
   padding-left: 1rem;
@@ -134,10 +138,29 @@ h1{
   
   margin-left: 15rem;
   margin-right: 15rem;
-  
+ 
   
 }
 .hr{
   margin-left: 15rem;
   
 }
+.small{
+  
+  
+  font-family: 'Montserrat', sans-serif;
+  
+}
+.smt{
+  text-align: right;
+  color:cornflowerblue;
+}
+.author{
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 0.5rem;
+  text-align: left;
+  text-decoration: underline;
+  color: cornflowerblue;
+  font-weight: bold;
+}
+
