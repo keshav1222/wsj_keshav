@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import 'G:/crypto/wsj_keshav/wsj-keshav/node_modules/bootstrap/dist/css/bootstrap.min.css';
 import SearchIcon from '@material-ui/icons/Search';
